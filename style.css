@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-1);
+}
+body{
+    background: linear-gradient(135deg, rgb(222, 161, 222), rgb(133, 211, 237));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container{
+    margin: 3vw 8vw
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+
+.header img{
+    width: 5vw;
+    height: 5vw;
+}
+
+.addNote{
+    background: linear-gradient(180deg, purple, rgb(244, 131, 131));
+    color: white;
+    padding: 1vw;
+    border-radius: 5vw;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    margin: 2vw 0;
+    font-weight: 900;
+    font-size: large;
+}
+.addNote img{
+    width: 1.2vw;
+    height: 1.2vw;
+    margin: 0 0.2vw;
+
+}
+
+
+.note{
+    position: relative;
+    margin: 0 0 2vw 0;
+}
+
+.notes .note{
+    margin: 0 4vw;
+}
+
+.notes .note img{
+    position: absolute;
+    right: 31vw;
+    bottom: 0.9vw;
+    width: 2vw;
+    height: 2vw;
+}
+
+.notes .note textarea{
+    border-radius: 0.6vw;
+    padding: 1vw;
+    margin: 0.5vw 0;
+}

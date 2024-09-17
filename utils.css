@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+    --main-bg-color: brown;
+    --font-1:"Open Sans", sans-serif;
+    --font-2:"Roboto Mono", monospace;
+}
+
+.font-1{
+    font-family: var(--font-1);
+
+}
+
+.font-2{
+    font-family: var(--font-2);
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.my-2{
+    margin: 12px 0;
+}
+
+.btn{
+    background: transparent;
+    padding: 7px ;
+    border-radius: 20px;
+    border: 4px solid black;
+    font-weight:bolder;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-input{
+    height: 1vw;
+    width: 8vw;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+
+.form-box input{
+    width: 44vw;
+    margin: 10px 0;
+    font-size: 15px;
+    padding: 7px;
+    font-family: var(--font-1);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.form-box textarea{
+    width: 44vw;
+    margin: 10px 0;
+    font-size: 15px;
+    padding: 7px;
+    font-family: var(--font-1);
+    border: 2px solid black;
+    border-radius: 10px;
+}
